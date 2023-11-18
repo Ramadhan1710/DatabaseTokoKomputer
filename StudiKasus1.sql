@@ -8,7 +8,6 @@ DECLARE
     first_name VARCHAR;
     last_name VARCHAR;
 BEGIN
-    -- Split the full name into first name and last name
     first_name := SUBSTRING(full_name FROM '^[^ ]+');
     last_name := SUBSTRING(full_name FROM '[^ ]+$');
 
@@ -26,5 +25,6 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+--ganti nama customer yang diinginkan
 SELECT * FROM get_invoices_by_customer_name('John Doe');
 
