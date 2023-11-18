@@ -33,11 +33,11 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
-
+-- Menggunakan Procedure
 CALL add_transaction(
-  2,-- Customer ID
-  1 , -- Staff ID
+	2,-- Customer ID
+	1 , -- Staff ID
 	'2023-11-07', --Transaction_Date	
-  ARRAY[1, 2, 3],  -- ProductId 
+	ARRAY[1, 2, 3],  -- ProductId 
 	ARRAY[5, 2, 1]   -- QuantityProduct
 );
