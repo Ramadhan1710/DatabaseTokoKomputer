@@ -1,0 +1,22 @@
+INSERT INTO "Customer" ("FirstName", "LastName", "Address", "City", "Phone", "Email")
+VALUES
+	('John', 'Doe', '123 Main St', 'Cityville', '55551234', 'john.doe@email.com'),
+    ('Jane', 'Smith', '456 Oak St', 'Townsville', '55555678', 'jane.smith@email.com'),
+    ('Bob', 'Johnson', '789 Pine St', 'Villagetown', '55559101', 'bob.johnson@email.com'),
+    ('Alice', 'Williams', '101 Maple St', 'Hamletville', '55551212', 'alice.williams@email.com'),
+    ('Charlie', 'Brown', '202 Cedar St', 'Suburbia', '55551313', 'charlie.brown@email.com'),
+    ('Emma', 'Davis', '303 Elm St', 'Countryside', '55551414', 'emma.davis@email.com'),
+    ('Frank', 'Miller', '404 Birch St', 'Cityburg', '55551515', 'frank.miller@email.com'),
+    ('Grace', 'Taylor', '505 Redwood St', 'Villageburg', '55551616', 'grace.taylor@email.com'),
+    ('Henry', 'Anderson', '606 Fir St', 'Metropolis', '55551717', 'henry.anderson@email.com'),
+    ('Isabel', 'Martin', '707 Spruce St', 'Urbanville', '55551818', 'isabel.martin@email.com'),
+    ('Jack', 'Thomas', '808 Pineapple St', 'Beachtown', '55551919', 'jack.thomas@email.com'),
+    ('Karen', 'Clark', '909 Banana St', 'Resortville', '55552020', 'karen.clark@email.com'),
+    ('Leo', 'Moore', '121 Coconut St', 'Islandburg', '55552121', 'leo.moore@email.com'),
+    ('Nina', 'Allen', '232 Mango St', 'Jungle City', '55552222', 'nina.allen@email.com'),
+    ('Oscar', 'Baker', '343 Papaya St', 'Tropicalville', '55552323', 'oscar.baker@email.com'),
+    ('Pamela', 'Evans', '454 Guava St', 'Exoticburg', '55552424', 'pamela.evans@email.com'),
+    ('Quincy', 'Fisher', '565 Kiwi St', 'Rainforest', '55552525', 'quincy.fisher@email.com'),
+    ('Rita', 'Gomez', '676 Pine St', 'Mountainville', '55552626', 'rita.gomez@email.com'),
+    ('Sam', 'Hall', '787 Cedar St', 'Valleytown', '55552727', 'sam.hall@email.com'),
+    ('Tina', 'Irwin', '898 Elm St', 'Hillside', '55552828', 'tina.irwin@email.com');
