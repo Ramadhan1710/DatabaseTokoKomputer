@@ -20,4 +20,5 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
+-- Menjalankan Function
 SELECT add_customer('John', 'Doe', '123 Main St', 'Cityville', '555-1234', 'john.doe@example.com');
